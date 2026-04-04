@@ -42,7 +42,6 @@ export function ResearchCompareMatrix({
 
   useEffect(() => {
     let active = true;
-    setLoading(true);
     listKnowledgeEntries(80, {
       sourceDomain: "research.report",
       query: initialQuery || undefined,

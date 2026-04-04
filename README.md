@@ -1,5 +1,7 @@
 # Anti-FOMO
 
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
@@ -16,6 +18,9 @@ Start here:
 - contribute: [good first issue](https://github.com/ChrisChen667788/antifomo/issues/2)
 - collector reliability: [help wanted issue](https://github.com/ChrisChen667788/antifomo/issues/3)
 - ideas and use cases: [GitHub Discussions](https://github.com/ChrisChen667788/antifomo/discussions)
+- launch kit: [docs/open-source-launch-kit.md](./docs/open-source-launch-kit.md)
+- growth copy: [docs/open-source-growth-copy.md](./docs/open-source-growth-copy.md)
+- contributor backlog: [docs/open-source-backlog.md](./docs/open-source-backlog.md)
 
 ## Why AntiFomo
 
@@ -180,6 +185,24 @@ Near-term areas worth pushing further:
 - bugs: open an Issue with reproduction details
 - code contributions: see `CONTRIBUTING.md`
 - security reports: see `SECURITY.md`
+
+## Open-source launch kit
+
+We also keep a public launch pack in the repo:
+
+- [docs/open-source-launch-kit.md](./docs/open-source-launch-kit.md)
+- [docs/open-source-growth-copy.md](./docs/open-source-growth-copy.md)
+- [docs/open-source-backlog.md](./docs/open-source-backlog.md)
+- [docs/assets/github-hero.svg](./docs/assets/github-hero.svg)
+- [docs/assets/github-social-preview.png](./docs/assets/github-social-preview.png)
+
+This includes:
+
+- GitHub About copy
+- pinned repo and profile wording
+- bilingual social launch drafts
+- contributor-friendly backlog items
+- ready-to-upload social preview assets
 
 ## License
 
