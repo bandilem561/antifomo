@@ -205,7 +205,10 @@ NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000 npm run dev
 - [docs/open-source-growth-copy.md](./docs/open-source-growth-copy.md)
 - [docs/open-source-backlog.md](./docs/open-source-backlog.md)
 - [docs/assets/github-hero.svg](./docs/assets/github-hero.svg)
+- [docs/assets/github-hero.png](./docs/assets/github-hero.png)
 - [docs/assets/github-social-preview.png](./docs/assets/github-social-preview.png)
+- [public/github-social-square.png](./public/github-social-square.png)
+- [public/repo-banner.png](./public/repo-banner.png)
 
 里面包括：
 
