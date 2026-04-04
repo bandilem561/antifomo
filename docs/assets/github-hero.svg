@@ -1,43 +1,49 @@
 <svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="80" y1="60" x2="1160" y2="580" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF8E8"/>
-      <stop offset="0.5" stop-color="#F3F7FF"/>
-      <stop offset="1" stop-color="#EEF8F2"/>
+    <linearGradient id="bg" x1="80" y1="54" x2="1200" y2="598" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5E4"/>
+      <stop offset="0.48" stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#ECFDF5"/>
     </linearGradient>
-    <linearGradient id="accent" x1="122" y1="146" x2="596" y2="466" gradientUnits="userSpaceOnUse">
+    <linearGradient id="hero" x1="98" y1="118" x2="610" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#1F5EFF"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
     </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#F6F9FF"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="420" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#10B981"/>
     </linearGradient>
   </defs>
   <rect width="1280" height="640" rx="32" fill="url(#bg)"/>
-  <circle cx="1088" cy="118" r="78" fill="#DDEAFE"/>
-  <circle cx="1134" cy="510" r="94" fill="#E2F7EA"/>
-  <circle cx="130" cy="552" r="112" fill="#FFF0C9"/>
-  <rect x="82" y="90" width="524" height="460" rx="30" fill="url(#accent)"/>
-  <text x="122" y="170" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">ANTI-FOMO</text>
-  <text x="122" y="248" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Research workspace</text>
-  <text x="122" y="316" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">for signal, focus,</text>
-  <text x="122" y="384" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">and action.</text>
-  <text x="122" y="450" fill="#D8E7FF" font-family="Arial, Helvetica, sans-serif" font-size="28">Collect high-signal content, generate evidence-aware</text>
-  <text x="122" y="488" fill="#D8E7FF" font-family="Arial, Helvetica, sans-serif" font-size="28">reports, run focus sessions, and turn output into action cards.</text>
-  <rect x="690" y="106" width="500" height="136" rx="24" fill="url(#card)" stroke="#D7E1F2" stroke-width="2"/>
-  <text x="726" y="154" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Signal pipeline</text>
-  <text x="726" y="198" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="28">collect → filter → research → focus → action</text>
-  <rect x="690" y="272" width="238" height="222" rx="24" fill="url(#card)" stroke="#D7E1F2" stroke-width="2"/>
-  <text x="724" y="320" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Built for</text>
-  <text x="724" y="366" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="24">• consultants</text>
-  <text x="724" y="404" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="24">• strategy teams</text>
-  <text x="724" y="442" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="24">• operators</text>
-  <rect x="952" y="272" width="238" height="222" rx="24" fill="url(#card)" stroke="#D7E1F2" stroke-width="2"/>
-  <text x="986" y="320" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Surfaces</text>
-  <text x="986" y="366" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="24">• Next.js web</text>
-  <text x="986" y="404" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="24">• FastAPI backend</text>
-  <text x="986" y="442" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="24">• Mini program</text>
-  <rect x="690" y="524" width="500" height="62" rx="18" fill="#0F172A"/>
-  <text x="722" y="564" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Star the repo if you want an open-source WeChat-first research tool.</text>
+  <circle cx="120" cy="114" r="104" fill="#DBEAFE" fill-opacity="0.72"/>
+  <circle cx="1168" cy="112" r="76" fill="#FDE68A" fill-opacity="0.5"/>
+  <circle cx="1134" cy="538" r="134" fill="#D1FAE5" fill-opacity="0.72"/>
+  <rect x="84" y="86" width="546" height="42" rx="21" fill="white" fill-opacity="0.82"/>
+  <text x="112" y="114" fill="#475569" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">WECHAT-FIRST RESEARCH WORKSPACE</text>
+  <rect x="84" y="156" width="500" height="392" rx="28" fill="url(#hero)"/>
+  <text x="118" y="214" fill="#67E8F9" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">ANTI-FOMO</text>
+  <text x="118" y="286" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">Turn noisy</text>
+  <text x="118" y="348" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">signals into</text>
+  <text x="118" y="410" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">calm action.</text>
+  <text x="118" y="470" fill="#DCE9FF" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="22" font-weight="600">Collect from WeChat, distill with AI, run focus sessions,</text>
+  <text x="118" y="502" fill="#DCE9FF" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="22" font-weight="600">and turn signal into action cards.</text>
+  <g transform="translate(118 498)">
+    <rect width="380" height="50" rx="25" fill="url(#accent)"/>
+    <text x="28" y="33" fill="white" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="18" font-weight="700">Signal triage · AI briefs · Focus · Action cards</text>
+  </g>
+  <g transform="translate(664 128)">
+    <rect width="530" height="118" rx="24" fill="white" fill-opacity="0.86" stroke="#D6E1F0" stroke-width="2"/>
+    <text x="28" y="38" fill="#0F172A" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">COLLECTION TO EXECUTION</text>
+    <text x="28" y="82" fill="#334155" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="32" font-weight="700">Collect · Distill · Focus · Act</text>
+  </g>
+  <g transform="translate(664 272)">
+    <rect width="530" height="118" rx="24" fill="#0F172A"/>
+    <text x="28" y="38" fill="#67E8F9" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">RESEARCH OUTPUT</text>
+    <text x="28" y="82" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="31" font-weight="700">Briefs · Evidence · Watchlists</text>
+  </g>
+  <g transform="translate(664 416)">
+    <rect width="530" height="118" rx="24" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="2"/>
+    <text x="28" y="38" fill="#047857" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">TEAM MODE</text>
+    <text x="28" y="82" fill="#065F46" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="29" font-weight="700">Focus sessions and explicit next steps</text>
+  </g>
 </svg>
