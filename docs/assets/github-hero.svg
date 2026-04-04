@@ -1,38 +1,38 @@
 <svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="80" y1="54" x2="1200" y2="598" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF5E4"/>
-      <stop offset="0.48" stop-color="#EEF4FF"/>
+    <linearGradient id="bg" x1="78" y1="52" x2="1202" y2="598" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6E7"/>
+      <stop offset="0.47" stop-color="#EEF4FF"/>
       <stop offset="1" stop-color="#ECFDF5"/>
     </linearGradient>
-    <linearGradient id="hero" x1="98" y1="118" x2="610" y2="560" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="92" y1="148" x2="590" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0F172A"/>
       <stop offset="1" stop-color="#1E3A8A"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="420" y2="160" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="0" y1="0" x2="360" y2="140" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22D3EE"/>
       <stop offset="1" stop-color="#10B981"/>
     </linearGradient>
   </defs>
   <rect width="1280" height="640" rx="32" fill="url(#bg)"/>
-  <circle cx="120" cy="114" r="104" fill="#DBEAFE" fill-opacity="0.72"/>
-  <circle cx="1168" cy="112" r="76" fill="#FDE68A" fill-opacity="0.5"/>
-  <circle cx="1134" cy="538" r="134" fill="#D1FAE5" fill-opacity="0.72"/>
-  <rect x="84" y="86" width="546" height="42" rx="21" fill="white" fill-opacity="0.82"/>
+  <circle cx="118" cy="112" r="102" fill="#DBEAFE" fill-opacity="0.72"/>
+  <circle cx="1164" cy="112" r="74" fill="#FDE68A" fill-opacity="0.5"/>
+  <circle cx="1134" cy="536" r="132" fill="#D1FAE5" fill-opacity="0.72"/>
+  <rect x="84" y="86" width="532" height="42" rx="21" fill="white" fill-opacity="0.84"/>
   <text x="112" y="114" fill="#475569" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">WECHAT-FIRST RESEARCH WORKSPACE</text>
-  <rect x="84" y="156" width="500" height="392" rx="28" fill="url(#hero)"/>
+  <rect x="84" y="156" width="504" height="392" rx="28" fill="url(#panel)"/>
   <text x="118" y="214" fill="#67E8F9" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">ANTI-FOMO</text>
-  <text x="118" y="286" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">Turn noisy</text>
-  <text x="118" y="348" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">signals into</text>
-  <text x="118" y="410" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">calm action.</text>
-  <text x="118" y="470" fill="#DCE9FF" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="22" font-weight="600">Collect from WeChat, distill with AI, run focus sessions,</text>
-  <text x="118" y="502" fill="#DCE9FF" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="22" font-weight="600">and turn signal into action cards.</text>
-  <g transform="translate(118 498)">
-    <rect width="380" height="50" rx="25" fill="url(#accent)"/>
-    <text x="28" y="33" fill="white" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="18" font-weight="700">Signal triage · AI briefs · Focus · Action cards</text>
+  <text x="118" y="286" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">Turn signal</text>
+  <text x="118" y="348" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">into calm,</text>
+  <text x="118" y="410" fill="white" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="56" font-weight="760">actionable focus.</text>
+  <text x="118" y="474" fill="#DCE9FF" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="22" font-weight="600">Collect from WeChat, distill with AI, run focus sessions,</text>
+  <text x="118" y="506" fill="#DCE9FF" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="22" font-weight="600">and turn research into clear next steps.</text>
+  <g transform="translate(118 496)">
+    <rect width="340" height="46" rx="23" fill="url(#accent)"/>
+    <text x="24" y="30" fill="white" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700">Signal triage · AI briefs · Focus · Action</text>
   </g>
   <g transform="translate(664 128)">
-    <rect width="530" height="118" rx="24" fill="white" fill-opacity="0.86" stroke="#D6E1F0" stroke-width="2"/>
+    <rect width="530" height="118" rx="24" fill="white" fill-opacity="0.88" stroke="#D6E1F0" stroke-width="2"/>
     <text x="28" y="38" fill="#0F172A" font-family="SF Pro Text, Inter, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">COLLECTION TO EXECUTION</text>
     <text x="28" y="82" fill="#334155" font-family="SF Pro Display, Inter, Arial, sans-serif" font-size="32" font-weight="700">Collect · Distill · Focus · Act</text>
   </g>
